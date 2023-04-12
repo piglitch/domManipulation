@@ -1,11 +1,11 @@
 // DOM manipulation
 
-const title = document.querySelector('#main-heading');
-title.style.color ='black';
-console.log(title)
+//const title = document.querySelector('#main-heading');
+//title.style.color ='black';
+//console.log(title)
 
 
-const listItems = document.querySelectorAll('.list-items');
+//const listItems = document.querySelectorAll('.list-items');
 
 
 
@@ -23,8 +23,6 @@ const listItems = document.querySelectorAll('.list-items');
 ul.append(li)
 
 // Modifying the text
-const firstListItem = document.querySelector('.list-items')
-
-console.log(firstListItem.innerText);
-console.log(firstListItem.textContent);
-console.log(firstListItem.innerHTML);
+li.innerText = 'Star Wars';
+//modifying attributes and classes
+li.setAttribute('id', 'main-heading');

@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-  background: #FFFFFF;
+  background: #555555;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  border: 2px solid bl;
+  border: 2px solid #FFFFFF;
 }
 
 #main-heading {
