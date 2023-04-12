@@ -5,7 +5,7 @@ title.style.color ='black';
 console.log(title)
 
 
-const listItems = document.querySelectorAll('list-items');
+const listItems = document.querySelectorAll('.list-items');
 
 
 
