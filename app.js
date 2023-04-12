@@ -25,5 +25,6 @@ ul.append(li)
 // Modifying the text
 li.innerText = 'X-Men';
 //modifying attributes and classes
-li.setAttribute('id', 'main-heading');
-li.removeAttribute('id');
+li.classList.remove('list-items');
+
+console.log(li.classList.contains('list-items'));
