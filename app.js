@@ -28,3 +28,7 @@ li.innerText = 'X-Men';
 li.classList.remove('list-items');
 
 console.log(li.classList.contains('list-items'));
+
+//Remove elements
+
+li.remove();
