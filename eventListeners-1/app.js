@@ -17,7 +17,12 @@ buttonTwo.addEventListener("click", alertBtn);
 const newBgColor = document.querySelector('.box-3');
 
 function changeBgColor(){
-    newBgColor.style.backgroundColor = 'teal'; 
+    if (newBgColor.classList.contains('colorChange')){
+        newBgColor.classList.remove('colorChange'); 
+    }
+    else{
+        newBgColor.classList.add('colorChange');
+    }
 }
 
 newBgColor.addEventListener("mouseover", changeBgColor);
