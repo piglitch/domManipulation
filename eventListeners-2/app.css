@@ -1,19 +1,31 @@
-.box {
-    background-color: black;
-    border: 2rem;
-    border-color: aliceblue;
-    padding: 80px;
-    margin: 50px auto;
-    width: 50%;
+.reveal-btn {
+    position: relative;
     text-align: center;
-    font-size: 24px;
     font-weight: bold;   
     color: aliceblue;
 }
-.box:hover {
-    background-color: grey;
+
+.hidden-content{
+    display: none;
+}
+
+.hidden-content.reveal-btn{
+    display: block;
 }
 
 body{
     background: #000;
 }
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes {
+    width: 30%;
+    background-color: black;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+  }
