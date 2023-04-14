@@ -1,0 +1,16 @@
+.box {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: #ddd;
+}
+.hidden {
+    display: none;
+}
