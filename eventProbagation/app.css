@@ -1,0 +1,24 @@
+.div2{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
