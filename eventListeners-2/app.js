@@ -8,7 +8,7 @@ const hiddencontent = document.querySelector('.hidden-content');
 function revealContent(){
     if(hiddencontent.classList.contains('reveal-btn')){
         hiddencontent.classList.remove('reveal-btn');
-        revealBtn.innerText = 'Reveal more'
+        revealBtn.innerText = 'Reveal More'
     }else{
         hiddencontent.classList.add('reveal-btn');
         let def = revealBtn.innerText = 'See less';
