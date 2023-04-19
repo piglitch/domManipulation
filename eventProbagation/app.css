@@ -1,6 +1,6 @@
 .div2{
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     width: 30%;
     border: 1px solid #ccc;
     padding: 20px;
@@ -9,8 +9,10 @@
 }
 
 .div1{
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     border: 1px solid #ccc;
     padding: 20px;
