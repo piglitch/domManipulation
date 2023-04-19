@@ -25,8 +25,16 @@
 .box{
     display: flex;
     justify-content: center;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 body{
-    background: no-repeat linear-gradient(to bottom, black, gray);
+    height: 100vh;
+    background: linear-gradient(to bottom, black, gray);
 }
