@@ -11,13 +11,15 @@ document.addEventListener("click", function(){
 }, false);
 
 document.querySelector(".div2").addEventListener("click", function(){
+//    e.stopPropagation()
     console.log('DIV 2');
-}, false);
+},{once: true});
 
 document.querySelector(".div1").addEventListener("click", function(){
     console.log('DIV 1');
 }, false);
 
-document.querySelector("button").addEventListener("click", function(e){
+document.querySelector(".btn").addEventListener("click", function(e){
+    e.preventDefault()
     console.log(e.target.innerText = "clicked!");
 }, false);
