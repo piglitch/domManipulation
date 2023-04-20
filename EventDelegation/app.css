@@ -1,0 +1,25 @@
+body{    
+    height: 100vh;
+    background: no-repeat linear-gradient(to bottom, black, gray);
+    border: 5px solid white;
+}
+
+li{
+    display: block;
+    color: aliceblue;
+    width: auto;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+
+ul{
+    background: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 20px;
+}
