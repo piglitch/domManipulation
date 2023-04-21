@@ -52,6 +52,9 @@ document.querySelector('#boxing').addEventListener('click', function(e){
 
 */
 
+
+// To do it all in short---------->
+
 document.querySelector('#sports').addEventListener('click', function(e){
     console.log(e.target.getAttribute('id') + ' is clicked!');
 
