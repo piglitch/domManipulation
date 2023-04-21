@@ -37,7 +37,7 @@ document.querySelector('#cricket').addEventListener('click', function(e){
 
     const target  = e.target;
     if (target.matches('li')){
-        target.style.backgroundColor = 'lightgrey';
+        target.style.backgroundColor ='green';
     }
 })
 
