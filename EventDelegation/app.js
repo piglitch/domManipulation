@@ -4,7 +4,7 @@
 
 // Allows users to append a single event listener to a parent element rgar adds it to all of its present
 // present and future descendants that match a selector.
-
+/*-----
 document.querySelector('#football').addEventListener('click', function(e){
     console.log('football is clicked');
 
@@ -50,3 +50,8 @@ document.querySelector('#boxing').addEventListener('click', function(e){
     }
 })
 
+*/
+
+document.querySelector('#sports').addEventListener('click', function(e){
+    console.log(e.target.getAttribute('id') + ' is clicked!');
+})
